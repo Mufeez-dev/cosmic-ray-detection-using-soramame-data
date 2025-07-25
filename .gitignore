@@ -16,3 +16,8 @@ Thumbs.db
 .env
 *.env
 
+Reports/*
+reports/*
+!reports/*.tex
+Reports/*
+!Reports/*.tex
