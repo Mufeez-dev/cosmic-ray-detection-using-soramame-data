@@ -21,3 +21,5 @@ reports/*
 !reports/*.tex
 Reports/*
 !Reports/*.tex
+Report/*
+!Report/*.tex
