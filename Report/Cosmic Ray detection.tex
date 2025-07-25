@@ -5,6 +5,7 @@
 \usepackage{subcaption}
 \usepackage{amsmath}
 \usepackage{float}
+\usepackage{authblk}
 \usepackage{siunitx}
 \usepackage{hyperref}
 \hypersetup{
@@ -17,16 +18,12 @@
 
 
 \title{\textbf{Laboratory Report: Cosmic Ray Detection Using Smartphone CMOS Sensor Data}} 
-\author{
-	M.Mufeez\\
-	Department of Physics, Quaid-e-Azam University
-	\and
-	Zahra\\
-	Department of Physics, Quaid-e-Azam University
-}
-\date{July 2025}
+\author[]{Mufeez}
+\author[]{Zahra}
+\author[]{Muzammil Shah}
+\affil[]{Department of Physics, Quaid-i-Azam University}
+\date{\today}
 
-\date{}
 
 \begin{document}
 	\maketitle	
@@ -178,10 +175,26 @@
 	
 	\section{Conclusion}
 	This experiment successfully detected cosmic-ray muons using smartphone CMOS dark frames and analyzed their statistics. The measured flux \SI{0.8752}{events/cm^2/min} closely matches expected values. Half hour variations conform to Poisson distribution, and spatial mapping reveals no detector bias. Future work could extend observation duration. A better self learning model would easily filter the candidate events more accurately than our current filtering models.
-	\\
+	
+	\pagebreak
 	\noindent\textbf{Code and Data Repository:} The full data analysis pipeline, including CSV parsing, plotting scripts, and this report's LaTeX source, is available at:
 	
 	\url{https://github.com/Mufeez-dev/cosmic-ray-detection-using-soramame-data}
+	
+	\section*{References}
+	\begin{enumerate}
+		\item Vandenbroucke, J. et al. (2016). *Measurement of cosmic-ray muons with the Distributed Electronic Cosmic-ray Observatory, a network of smartphones.* [JINST 11 (2016) P04019].\\
+		\url{https://ui.adsabs.harvard.edu/abs/2016JInst..11P4019V/abstract}
+		
+		\item Swaney, J. et al. (2021). *Measurement of Smartphone Sensor Efficiency to Cosmic Ray Muons.*\\
+		\url{https://arxiv.org/abs/2107.06332}
+		
+		\item Pérez, M. et al. (2016). *Particle detection and classification using commercial off-the-shelf CMOS image sensors.* [Nucl. Instrum. Meth. A 827 (2016) 171–180].\\
+		\url{https://ui.adsabs.harvard.edu/abs/2016NIMPA.827..171P/abstract}
+		
+		\item Winter, M. et al. (2018). *Particle Identification in Camera Image Sensors Using Computer Vision.*\\
+		\url{https://www.researchgate.net/publication/323746988_Particle_Identification_In_Camera_Image_Sensors_Using_Computer_Vision}
+	\end{enumerate}
 	
 	
 	
