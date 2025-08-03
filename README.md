@@ -17,6 +17,3 @@ This project contains codework for data analysis of the data collected using the
 - matplotlib
 - numpy
 
-Install using:
-```bash
-pip install -r requirements.txt
